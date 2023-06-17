@@ -7,7 +7,7 @@
 #ifndef KSU_GIT_VERSION
 #warning                                                                       \
 	"KSU_GIT_VERSION not defined! It is better to make KernelSU a git submodule!"
-#define KERNEL_SU_VERSION (16)
+#define KERNEL_SU_VERSION (10981)
 #else
 #define KERNEL_SU_VERSION                                                      \
 	(10000 + KSU_GIT_VERSION +                                             \
