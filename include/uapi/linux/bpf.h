@@ -2185,6 +2185,10 @@ union bpf_attr {
  * 		See: clock_gettime(CLOCK_BOOTTIME)
  * 	Return
  * 		Current *ktime*.
+ *
+ * int bpf_probe_read_user(void *dst, int size, void *src)
+ *     Read a userspace pointer safely.
+ *     Return: 0 on success or negative error
  */
 #define __BPF_FUNC_MAPPER(FN)		\
 	FN(unspec),			\
